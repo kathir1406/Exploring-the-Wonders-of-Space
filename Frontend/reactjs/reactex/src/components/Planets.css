@@ -1,0 +1,60 @@
+.planets-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #0b0c10;
+    color: #c5c6c7;
+}
+
+.explore-button {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 15px;
+    background-color: #66fcf1;
+    color: #0b0c10;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+}
+
+.explore-button:hover {
+    background-color: #45a29e;
+}
+
+.planet-info,
+.moon-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.planet-card,
+.moon-card {
+    background-color: #1f2833;
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.planet-card h2,
+.moon-card h3 {
+    color: #66fcf1;
+}
+
+.planet-card p,
+.moon-card p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.planet-image,
+.moon-image {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin: 10px 0;
+}

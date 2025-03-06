@@ -1,0 +1,16 @@
+body{
+    height: 250px;
+    width: 250px;
+    background: linear-gradient(rgb(151, 212, 236),rgb(2, 155, 215 )80%,rgb(2, 155, 215), rgb(34, 217, 34),rgb(34, 217, 34))fixed;
+}
+
+div{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    margin-left:430%;
+    margin-top: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px rgb(227, 170, 13) ;
+    background-color:  rgb(244, 198, 72);
+}

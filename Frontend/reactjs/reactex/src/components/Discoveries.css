@@ -1,0 +1,116 @@
+/* General Styles */
+
+.discoveries-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #0d1b2a;
+    color: white;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h2,
+h3 {
+    color: #00aaff;
+}
+
+
+/* Timeline */
+
+.timeline {
+    text-align: left;
+    margin: 20px 0;
+    padding: 10px;
+    border-left: 4px solid #00aaff;
+}
+
+.event {
+    display: flex;
+    flex-direction: row;
+    /* Align image and text side by side */
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+    text-align: left;
+    /* Align text properly */
+    transition: transform 0.2s ease-in-out;
+}
+
+.event:hover {
+    transform: scale(1.02);
+}
+
+.event-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+
+/* Responsive: Stack vertically on small screens */
+
+@media (max-width: 600px) {
+    .event {
+        flex-direction: column;
+        text-align: center;
+    }
+    .event-image {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* News Section */
+
+.news-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.news-item {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.news-item:hover {
+    transform: scale(1.02);
+}
+
+.news-image {
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-top: px;
+}
+
+.news-content {
+    flex: 1;
+}
+
+.news-title {
+    color: #00aaff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.news-title:hover {
+    text-decoration: underline;
+}
+
+.news-date {
+    font-size: 12px;
+    color: #ccc;
+}

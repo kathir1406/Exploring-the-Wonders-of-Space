@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    background-color: whitesmoke;
+    /* font-size: medium; */
+    /* display: flex; */
+    position: relative;
+    /* background-image: url(D:\mernstack\img\download.jpg); */
+    /* background-position-x: center; */
+}
+
+.nav {
+    /* display: inline; */
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: beige;
+    margin: -8px;
+    padding: 15px 0 4px 0;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    font-size: small;
+}
+
+.home {
+    margin-left: 370px;
+}
+
+.about {
+    margin-left: 20px;
+}
+
+.help {
+    margin-left: 20px;
+}
+
+
+/* .nav:hover{
+    color: white;
+} */
+
+.home:hover {
+    color: rgb(252, 72, 72);
+    text-decoration: underline;
+}
+
+.about:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.help:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.logo {
+    /* padding: 5px; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    margin-left: 30px;
+    margin-top: -5px;
+    padding-top: -15px;
+}
+
+.container1 {
+    border: 0.5px solid black;
+    height: 73.5px;
+    width: 110px;
+    /* margin: 50px 10px 10px 95px;  */
+    display: inline-flex;
+    background-image: url(D:\mernstack\img\Thailand.jpg);
+    background-size: contain;
+}
+
+.container2 {
+    border: 0.5px solid black;
+    height: 75px;
+    width: 114px;
+    margin: 10px 10px 10px 10px;
+    display: inline-flex;
+    background-image: url(D:\mernstack\img\Taj_Mahal.jpeg);
+    background-size: contain;
+}
+
+.container3 {
+    border: 0.5px solid black;
+    height: 75px;
+    width: 150px;
+    margin: 10px 10px 10px 10px;
+    display: inline-flex;
+    background-image: url(D:\Temp\Frontend\img\login1.jpg);
+    background-size: contain;
+}
+
+.one {
+    border: 0.5px solid black;
+    height: 73.5px;
+    width: 110px;
+    margin: 50px 0px 0px 50px;
+    display: flex;
+}
+
+.two {
+    border: 0.5px solid black;
+    height: 75px;
+    width: 114px;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+}
+
+.three {
+    border: 0.5px solid black;
+    height: 75px;
+    width: 114px;
+    margin: 10px 10px 10px 75px;
+    display: flex;
+}
+
+.sub1 {
+    display: flex;
+}
+
+.sub2 {}
